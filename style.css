@@ -1,0 +1,477 @@
+*{
+
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+body{
+    margin: 0;
+}
+
+.nav-bar{
+    display: flex ;
+    background-color: white;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    
+   
+    z-index: 2;
+}
+
+.bar-1-2{
+    width: 65%;
+    display: flex;
+    justify-items: center;
+}
+
+.perfil{
+    width: 55px;
+}
+.name{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bar-2-2{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 80px;
+
+}
+
+.bar-2-2> a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.bar-2-2> a:hover{
+    color:rgb(17, 35, 196); ;
+    cursor: pointer;
+    border-bottom: 3px solid;
+}
+
+.home{
+    background-image: url("images/luxa.org-opacity-changed-BG-future4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
+    text-align: center; 
+    padding: auto 0 ;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+     
+}
+
+.home div{
+    max-width: 1200px ;
+    margin: auto 0 ;
+
+}
+
+.home>div>h1{
+    font-size: 73px;
+}
+.home>div>p{
+    font-size: 30px;
+    text-wrap: wrap;
+}
+
+.home>div>a>p{
+    font-size: 30px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color:rgba(6, 14, 82, 0.568);
+    border: 2px solid black ;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+.home>div>a{
+    text-decoration: none;
+}
+
+.home>img{
+    width: 50px;
+    margin-top: 90vh;
+    position: absolute;
+}
+
+.redes{
+    width: 60px;
+    display: block;
+    position: absolute ;
+    margin-top: 34vh;
+    z-index: 1;
+    padding-top: 40px;
+    padding-left: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+.redes img{
+    width: 40px;    
+    margin-bottom: 40px;
+}
+
+
+
+
+   /*----ABOUT----*/
+
+
+.about{
+    height: 82vh;
+    background: #f0f0f0;
+    display: block;
+    text-align: center;
+    padding: 110px 20% 0 ;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
+}
+.about h2{
+    font-size: 40px;
+}
+.about p{
+    max-width: 100%;
+}
+.subtitle-about{
+    width: 650px;
+    margin: 0 auto;
+}
+.subtitle-about{
+    font-size: 20px;
+}
+.box-about{
+    display: flex;
+    
+    margin-top: 100px;
+    
+}
+.description-about{
+    width: 50%;
+    text-align: start;
+}
+.description-about h3{
+    font-size: 25px;
+}
+.description-about p{
+    font-size: 18px;
+    text-wrap:wrap ;
+    text-align: start;
+}
+.skills{
+    width: 50%;
+    margin-left: 70px ;
+}
+.skills h3{
+    font-size: 25px;
+}
+.box-skills{
+    margin-top:50px ;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-column-gap: 10px;
+    row-gap: 10px;
+    height: 100px;
+}
+.box-skill {
+    border: solid 1px;
+    padding: 0;
+    grid-template-rows: 50px 100px 50px 150px;
+    background-color: rgba(6, 14, 82, 0.795);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-skill p{
+    font-size: 15px;
+    margin: 5px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+/*-------------*/
+
+
+.projects{
+    height: 220vh;
+    background-color: rgb(255, 255, 255);
+    display:block;
+    padding: 50px 10% ;
+    margin: 50px ;
+    text-align: center;
+    
+}
+.projects h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box-project{
+  margin-top: 150px;
+  display: flex;
+  border: 2px solid ;
+  max-height: 35vh;
+}
+.img-project{
+    max-width: 30%;
+    justify-items: center;
+    margin: auto;
+    
+}
+.img-project img{
+    max-width: 100%;
+    max-height: 32vh;
+    
+}
+
+.about-project{
+    width: 70%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-project h4{
+    font-size: 22px;
+}
+.about-project p{
+    text-overflow:inherit;
+}
+
+
+.links-project{
+    display: flex;
+    justify-content: center;
+    justify-items: end;
+}
+
+.links-project a{
+    margin: 20px;
+    text-decoration: none;
+}
+.links-project p{
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid;
+    color: white;
+    background-color: rgba(6, 14, 82, 0.795);
+    padding: 7px 15px;
+}
+
+.contact{
+    visibility:hidden; 
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+.contact img{
+    width: 50px;
+
+}
+
+
+footer{
+    height: 10vh;
+    background-image: url("images/luxa.org-opacity-changed-BG-future4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto 0 ;
+}
+
+
+
+
+@media screen and (max-width: 1440px){
+
+    .about{
+        height: 100vh;
+    }
+
+    .projects{
+        height: 230vh;
+    }
+
+
+    .box-project{
+       
+        max-height: 40vh;
+      }
+
+    
+} 
+
+
+
+@media screen and (max-width: 1280px){
+    .about{
+        height: 80vh;
+        background: #f0f0f0;
+        display: block;
+        text-align: center;
+        padding: 20px 10% 50px ;
+        
+    }
+    .about h2{
+        font-size: 40px;
+    }
+   
+    .box-about{
+        display: flex;
+        margin-top: 50px;
+    }
+    .description-about{
+        width: 50%;
+        text-align: start;
+    }
+    .description-about h3{
+        font-size: 25px;
+    }
+    .description-about p{
+        font-size: 18px;
+        text-wrap:wrap ;
+        text-align: start;
+    }
+    
+    .redes{
+        visibility:hidden
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    
+    .about{
+        height: 90vh;
+    }
+    .projects{
+        height: 250vh;
+        padding: 20px 3% ;
+        
+    }
+    .contact{
+        visibility:visible;
+        margin-bottom: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 720px){
+
+
+
+    .nav-bar{
+        padding: 15px 15px;
+        
+    }
+
+    .perfil{
+        visibility: hidden;
+        width: 0;
+    }
+    .name{
+        font-size: 14px;
+
+    }
+    .bar-1-2{
+        width: 50%;
+    }
+    .bar-2-2{
+        width: 50%;
+        padding: 0;
+        justify-content: space-around;
+    }
+    .bar-2-2 p {
+        font-weight: normal;
+        font-size: 14px;
+
+    }
+
+
+    .home >div> h1{
+        font-size: 65px;
+    }
+    .home >div> p{
+        font-size: 25px;
+        margin: 30px 10px
+    }
+
+    .about{
+        height: 150vh;
+    }
+
+    .box-about{
+        flex-wrap: wrap;
+    }
+
+    .about p{
+        max-width: 100%;
+    }
+
+    .description-about{
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .description-about h3{
+        margin: 0 auto;
+    }
+
+    .description-about p{
+        font-size: 16px;
+        color: rgb(126, 117, 117);
+    }
+
+    .skills{
+        margin: 70px 0 0 0;
+        width: 100%;
+        
+    }
+
+
+    .projects {
+        margin: 20px;
+        padding: 20px 2%;
+        height: 250vh;
+    }
+
+    .box-project{
+        max-height: 70vh;
+        flex-wrap: wrap;
+    }
+    .img-project{
+       visibility: hidden;
+       height: 0vh;
+    }
+    .img-project img{
+        visibility: hidden;
+    }
+    
+    .about-project{
+        width: 100%;
+    }
+
+    .about-project p{
+        font-size: 14px;
+
+    }
+    .links-project p {
+        margin:0;
+    }
+}
