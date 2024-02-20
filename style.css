@@ -198,7 +198,7 @@ body{
 
 
 .projects{
-    height: 220vh;
+    height: 250vh;
     background-color: rgb(255, 255, 255);
     display:block;
     padding: 50px 10% ;
@@ -221,11 +221,14 @@ body{
     max-width: 30%;
     justify-items: center;
     margin: auto;
+    background-color: white;
+    
     
 }
 .img-project img{
     max-width: 100%;
     max-height: 32vh;
+    background-color: white;
     
 }
 
